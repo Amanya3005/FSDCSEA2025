@@ -1,0 +1,42 @@
+.container{
+    /* display:flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    display: grid;
+     /* grid-template-columns: 200px 300px 400px; */
+     grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 300px 400px ; 
+
+    border: 1px solid red;
+}
+
+.child1{
+    border: 1px dotted green;
+    height: 300px;
+    width: 300px;
+    background-color: #ab1111;
+}
+
+.child2{
+    border: 1px dotted rgb(22, 7, 104);
+    height: 300px;
+    width: 300px;
+    background-color: #119028;
+
+}
+
+.child3{
+    border: 1px dotted rgb(36, 179, 201);
+    height: 300px;
+    width: 300px;
+    background-color: #7b8c7d;
+
+}
+
+.child4{
+    border: 1px dotted rgb(176, 21, 160);
+    height: 300px;
+    width: 300px;
+    background-color: #afd222;
+}
