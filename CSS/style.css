@@ -35,7 +35,7 @@ p:nth-child(2){
     color: #e8efef;
 }
 
-div p:nth-of-type(1){
+ div p:nth-of-type(1){
     background-color: #280b71;
     color: #e8efef;
 }

@@ -1,42 +1,89 @@
 .container{
     /* display:flex;
     flex-direction: row;
-    justify-content: space-around; */
+    justify-content: space-around; 
     /* flex-wrap: wrap; */
     display: grid;
      /* grid-template-columns: 200px 300px 400px; */
+     /* justify-content: space-around;  */
      grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 200px 300px 400px ; 
+    grid-template-rows: 400px 500px 200px ; 
 
-    border: 1px solid red;
+   
 }
 
 .child1{
-    border: 1px dotted green;
-    height: 300px;
-    width: 300px;
-    background-color: #ab1111;
+    border: 1px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 400px;
+    width: 400px; 
+    background-color:rgb(237, 241, 240);
+}
+
+.child11{
+    height:110px;
+    width: 110px;
+    background-color: rgb(7, 79, 22);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image11{
+    padding-bottom: 0%;
+}
+.heading11{
+    font-size: 12px;    
+  font-weight: normal;  
+  color: #333;         
+  margin: 2px 0 0 0;    
+  line-height: 1.2;    
+  text-align: center; 
+}
+
+.child12{
+    height:110px;
+    width: 110px;
+      border: 1px dotted rgb(60, 0, 255);
+    background-color: rgb(74, 76, 162);
+    margin-top: 30px;
+}
+
+.child13{
+    height:110px;
+    width: 110px;
+    border: 1px dotted rgb(17, 72, 8);
+    background-color: rgb(12, 80, 80);
+    margin-left: 20px;
+}
+
+.child14{
+    height:110px;
+    width: 110px;
+      border: 1px dotted rgb(98, 12, 12);
+    background-color: rgb(56, 70, 15);
 }
 
 .child2{
     border: 1px dotted rgb(22, 7, 104);
-    height: 300px;
-    width: 300px;
+    /* height: 300px;
+    width: 300px; */
     background-color: #119028;
 
 }
 
 .child3{
     border: 1px dotted rgb(36, 179, 201);
-    height: 300px;
-    width: 300px;
+    /* height: 300px;
+    width: 300px; */
     background-color: #7b8c7d;
 
 }
 
 .child4{
     border: 1px dotted rgb(176, 21, 160);
-    height: 300px;
-    width: 300px;
+    /* height: 300px;
+    width: 300px; */
     background-color: #afd222;
 }
