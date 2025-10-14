@@ -1,0 +1,10 @@
+p::after{
+    content:" esrtrdfhhj";
+}
+
+p::before{
+    content:"esrtrdfhhj ";
+}
+p:visited{
+    color: aqua;
+}
